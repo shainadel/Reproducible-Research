@@ -1,0 +1,2073 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=1020">
+    
+    
+    <title>Reproducible-Research/PA1_template.html at master · shainadel/Reproducible-Research · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="shainadel/Reproducible-Research" name="twitter:title" /><meta content="Reproducible-Research - Reproducible Research Peer Assessment 1" name="twitter:description" /><meta content="https://avatars3.githubusercontent.com/u/10096299?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars3.githubusercontent.com/u/10096299?v=3&amp;s=400" property="og:image" /><meta content="shainadel/Reproducible-Research" property="og:title" /><meta content="https://github.com/shainadel/Reproducible-Research" property="og:url" /><meta content="Reproducible-Research - Reproducible Research Peer Assessment 1" property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+        <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="4FB4A882:0553:1384E20E:55AC0725" name="octolytics-dimension-request_id" />
+    
+    <meta content="Rails, view, blob#show" data-pjax-transient="true" name="analytics-event" />
+    <meta class="js-ga-set" name="dimension1" content="Logged Out">
+    <meta name="is-dotcom" content="true">
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <link rel="icon" sizes="any" mask href="https://assets-cdn.github.com/pinned-octocat.svg">
+      <meta name="theme-color" content="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="iw0j98aYFMIH1pxHHawfwykkRfFJLfVdZhkgvTqqtjGBnsAePn1zgm5IHSrIqWN6bYT0KKCWnyWgsU+WIYOe2Q==" name="csrf-token" />
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github/index-8824a5ef57ac4ae0b5ca429778b9660b1c66d09deea2ff11681de18d86a4bbb1.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2/index-f0d033a37796c27f6b5b24aa8dc21af9c206a51ed2fe782d660dc20267c17d2b.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="8ba97455ee93c7e28f6153eb82266087">
+
+      
+  <meta name="description" content="Reproducible-Research - Reproducible Research Peer Assessment 1">
+  <meta name="go-import" content="github.com/shainadel/Reproducible-Research git https://github.com/shainadel/Reproducible-Research.git">
+
+  <meta content="10096299" name="octolytics-dimension-user_id" /><meta content="shainadel" name="octolytics-dimension-user_login" /><meta content="39332669" name="octolytics-dimension-repository_id" /><meta content="shainadel/Reproducible-Research" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="39332669" name="octolytics-dimension-repository_network_root_id" /><meta content="shainadel/Reproducible-Research" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/shainadel/Reproducible-Research/commits/master.atom" rel="alternate" title="Recent Commits to Reproducible-Research:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out  env-production windows vis-public page-blob">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+
+
+
+        
+        <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="btn btn-primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="btn" href="/login?return_to=%2Fshainadel%2FReproducible-Research%2Fblob%2Fmaster%2FPA1_template.html" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <form accept-charset="UTF-8" action="/shainadel/Reproducible-Research/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/shainadel/Reproducible-Research/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/blog" data-ga-click="(Logged out) Header, go to blog, text:blog">Blog</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+
+        
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2Fshainadel%2FReproducible-Research"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <span class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="/shainadel/Reproducible-Research/watchers">
+    1
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fshainadel%2FReproducible-Research"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/shainadel/Reproducible-Research/stargazers">
+      0
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Fshainadel%2FReproducible-Research"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+      <a href="/shainadel/Reproducible-Research/network" class="social-count">
+        0
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author"><a href="/shainadel" class="url fn" itemprop="url" rel="author"><span itemprop="title">shainadel</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="/shainadel/Reproducible-Research" data-pjax="#js-repo-pjax-container">Reproducible-Research</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline  ">
+        <div class="repository-sidebar clearfix">
+            
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/shainadel/Reproducible-Research/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/shainadel/Reproducible-Research" aria-label="Code" aria-selected="true" class="js-selected-navigation-item selected sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /shainadel/Reproducible-Research">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/shainadel/Reproducible-Research/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /shainadel/Reproducible-Research/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="/shainadel/Reproducible-Research/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /shainadel/Reproducible-Research/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/shainadel/Reproducible-Research/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /shainadel/Reproducible-Research/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/shainadel/Reproducible-Research/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /shainadel/Reproducible-Research/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+              <div class="only-with-full-nav">
+                  
+<div class="js-clone-url clone-url open"
+  data-protocol-type="http">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/shainadel/Reproducible-Research.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url "
+  data-protocol-type="subversion">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/shainadel/Reproducible-Research" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<div class="clone-options">You can clone with
+  <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="A8EtDKSII18QeuhA7+BDYIkK+iL+L4bJPx8XjzbMFB0ZpZV3jSuuCa7/NEnN1OytpWlzFYt86jHvWfBK2gvrag==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form> or <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Ou8Bs5yIBYYizxaHgEmktyPlBA0tHYSzhMzYMkdVG12MfPBVo8sbUpyRgPaYtEkzYwZIzW8aPX/jRNKZq/U8JQ==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</div>
+
+
+  <a href="https://windows.github.com" class="btn btn-sm sidebar-button" title="Save shainadel/Reproducible-Research to your computer and use it in GitHub Desktop." aria-label="Save shainadel/Reproducible-Research to your computer and use it in GitHub Desktop.">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+
+                <a href="/shainadel/Reproducible-Research/archive/master.zip"
+                   class="btn btn-sm sidebar-button"
+                   aria-label="Download the contents of shainadel/Reproducible-Research as a zip file"
+                   title="Download the contents of shainadel/Reproducible-Research as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+
+          
+
+<a href="/shainadel/Reproducible-Research/blob/02b9ed8d52dd30fbdefa600fd5df711e0d257a0f/PA1_template.html" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:5fc8ee6c3a46d4604b4479a0fa2c9e5a -->
+
+<div class="file-navigation js-zeroclipboard-container">
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/shainadel/Reproducible-Research/blob/master/PA1_template.html"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <div class="btn-group right">
+    <a href="/shainadel/Reproducible-Research/find/master"
+          class="js-show-file-finder btn btn-sm empty-icon tooltipped tooltipped-s"
+          data-pjax
+          data-hotkey="t"
+          aria-label="Quickly jump between files">
+      <span class="octicon octicon-list-unordered"></span>
+    </a>
+    <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+  </div>
+
+  <div class="breadcrumb js-zeroclipboard-target">
+    <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/shainadel/Reproducible-Research" class="" data-branch="master" data-pjax="true" itemscope="url"><span itemprop="title">Reproducible-Research</span></a></span></span><span class="separator">/</span><strong class="final-path">PA1_template.html</strong>
+  </div>
+</div>
+
+<include-fragment class="commit commit-loader file-history-tease" src="/shainadel/Reproducible-Research/contributors/master/PA1_template.html">
+  <div class="file-history-tease-header">
+    Fetching contributors&hellip;
+  </div>
+
+  <div class="participation">
+    <p class="loader-loading"><img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" /></p>
+    <p class="loader-error">Cannot retrieve contributors at this time</p>
+  </div>
+</include-fragment>
+<div class="file">
+  <div class="file-header">
+    <div class="file-actions">
+
+      <div class="btn-group">
+        <a href="/shainadel/Reproducible-Research/raw/master/PA1_template.html" class="btn btn-sm " id="raw-url">Raw</a>
+          <a href="/shainadel/Reproducible-Research/blame/master/PA1_template.html" class="btn btn-sm js-update-url-with-hash">Blame</a>
+        <a href="/shainadel/Reproducible-Research/commits/master/PA1_template.html" class="btn btn-sm " rel="nofollow">History</a>
+      </div>
+
+        <a class="octicon-btn tooltipped tooltipped-nw"
+           href="https://windows.github.com"
+           aria-label="Open this file in GitHub for Windows"
+           data-ga-click="Repository, open with desktop, type:windows">
+            <span class="octicon octicon-device-desktop"></span>
+        </a>
+
+          <button type="button" class="octicon-btn disabled tooltipped tooltipped-n" aria-label="You must be signed in to make or propose changes">
+            <span class="octicon octicon-pencil"></span>
+          </button>
+
+        <button type="button" class="octicon-btn octicon-btn-danger disabled tooltipped tooltipped-n" aria-label="You must be signed in to make or propose changes">
+          <span class="octicon octicon-trashcan"></span>
+        </button>
+    </div>
+
+    <div class="file-info">
+        374 lines (285 sloc)
+        <span class="file-info-divider"></span>
+      41.002 kB
+    </div>
+  </div>
+  
+
+  <div class="blob-wrapper data type-html">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">&lt;!DOCTYPE html&gt;</td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">html</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">head</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">meta</span> <span class="pl-e">http-equiv</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>Content-Type<span class="pl-pds">&quot;</span></span> <span class="pl-e">content</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>text/html; charset=utf-8<span class="pl-pds">&quot;</span></span>/&gt;</td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">title</span>&gt;&lt;/<span class="pl-ent">title</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">&lt;<span class="pl-ent">script</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>text/javascript<span class="pl-pds">&quot;</span></span>&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-c1">window</span>.<span class="pl-en">onload</span> <span class="pl-k">=</span> <span class="pl-k">function</span>() {</span></td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-k">var</span> imgs <span class="pl-k">=</span> <span class="pl-c1">document</span>.<span class="pl-c1">getElementsByTagName</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>img<span class="pl-pds">&#39;</span></span>), i, img;</span></td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-k">for</span> (i <span class="pl-k">=</span> <span class="pl-c1">0</span>; i <span class="pl-k">&lt;</span> imgs.<span class="pl-c1">length</span>; i<span class="pl-k">++</span>) {</span></td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    img <span class="pl-k">=</span> imgs[i];</span></td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    <span class="pl-c">// center an image if it is the only element of its parent</span></span></td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    <span class="pl-k">if</span> (img.parentElement.childElementCount <span class="pl-k">===</span> <span class="pl-c1">1</span>)</span></td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      img.parentElement.<span class="pl-c1">style</span>.<span class="pl-c1">textAlign</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&#39;</span>center<span class="pl-pds">&#39;</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  }</span></td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">};</span></td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">&lt;/<span class="pl-ent">script</span>&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-c">&lt;!-- Styles for R syntax highlighter --&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">&lt;<span class="pl-ent">style</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>text/css<span class="pl-pds">&quot;</span></span>&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-ent">pre</span> <span class="pl-e">.operator</span>,</span></td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-ent">pre</span> <span class="pl-e">.paren</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">     <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">rgb</span>(<span class="pl-c1">104, 118, 135</span>)</span></td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-ent">pre</span> <span class="pl-e">.literal</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">     <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">#990073</span></span></td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-ent">pre</span> <span class="pl-e">.number</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">     <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">#099</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-ent">pre</span> <span class="pl-e">.comment</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">     <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">#998</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">     <span class="pl-c1"><span class="pl-c1">font-style</span></span>: <span class="pl-c1">italic</span></span></td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-ent">pre</span> <span class="pl-e">.keyword</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">     <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">#900</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">     <span class="pl-c1"><span class="pl-c1">font-weight</span></span>: <span class="pl-c1">bold</span></span></td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-ent">pre</span> <span class="pl-e">.identifier</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">     <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">rgb</span>(<span class="pl-c1">0, 0, 0</span>);</span></td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-ent">pre</span> <span class="pl-e">.string</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">     <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">#d14</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">&lt;/<span class="pl-ent">style</span>&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line"><span class="pl-c">&lt;!-- R syntax highlighter --&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">&lt;<span class="pl-ent">script</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>text/javascript<span class="pl-pds">&quot;</span></span>&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">var hljs=new function(){function m(p){return p.replace(/&amp;/gm,&quot;&amp;amp;&quot;).replace(/&lt;/gm,&quot;&amp;lt;&quot;)}function f(r,q,p){return RegExp(q,&quot;m&quot;+(r.cI?&quot;i&quot;:&quot;&quot;)+(p?&quot;g&quot;:&quot;&quot;))}function b(r){for(var p=0;p&lt;r.childNodes.length;p++){var q=r.childNodes[p];if(q.nodeName==&quot;CODE&quot;){return q}if(!(q.nodeType==3&amp;&amp;q.nodeValue.match(/\s+/))){break}}}function h(t,s){var p=&quot;&quot;;for(var r=0;r&lt;t.childNodes.length;r++){if(t.childNodes[r].nodeType==3){var q=t.childNodes[r].nodeValue;if(s){q=q.replace(/\n/g,&quot;&quot;)}p+=q}else{if(t.childNodes[r].nodeName==&quot;BR&quot;){p+=&quot;\n&quot;}else{p+=h(t.childNodes[r])}}}if(/MSIE [678]/.test(navigator.userAgent)){p=p.replace(/\r/g,&quot;\n&quot;)}return p}function a(s){var r=s.className.split(/\s+/);r=r.concat(s.parentNode.className.split(/\s+/));for(var q=0;q&lt;r.length;q++){var p=r[q].replace(/^language-/,&quot;&quot;);if(e[p]){return p}}}function c(q){var p=[];(function(s,t){for(var r=0;r&lt;s.childNodes.length;r++){if(s.childNodes[r].nodeType==3){t+=s.childNodes[r].nodeValue.length}else{if(s.childNodes[r].nodeName==&quot;BR&quot;){t+=1}else{if(s.childNodes[r].nodeType==1){p.push({event:&quot;start&quot;,offset:t,node:s.childNodes[r]});t=arguments.callee(s.childNodes[r],t);p.push({event:&quot;stop&quot;,offset:t,node:s.childNodes[r]})}}}}return t})(q,0);return p}function k(y,w,x){var q=0;var z=&quot;&quot;;var s=[];function u(){if(y.length&amp;&amp;w.length){if(y[0].offset!=w[0].offset){return(y[0].offset&lt;w[0].offset)?y:w}else{return w[0].event==&quot;start&quot;?y:w}}else{return y.length?y:w}}function t(D){var A=&quot;&lt;&quot;+D.nodeName.toLowerCase();for(var B=0;B&lt;D.attributes.length;B++){var C=D.attributes[B];A+=&quot; &quot;+C.nodeName.toLowerCase();if(C.value!==undefined&amp;&amp;C.value!==false&amp;&amp;C.value!==null){A+=&#39;=&quot;&#39;+m(C.value)+&#39;&quot;&#39;}}return A+&quot;&gt;&quot;}while(y.length||w.length){var v=u().splice(0,1)[0];z+=m(x.substr(q,v.offset-q));q=v.offset;if(v.event==&quot;start&quot;){z+=t(v.node);s.push(v.node)}else{if(v.event==&quot;stop&quot;){var p,r=s.length;do{r--;p=s[r];z+=(&quot;&lt;/&quot;+p.nodeName.toLowerCase()+&quot;&gt;&quot;)}while(p!=v.node);s.splice(r,1);while(r&lt;s.length){z+=t(s[r]);r++}}}}return z+m(x.substr(q))}function j(){function q(x,y,v){if(x.compiled){return}var u;var s=[];if(x.k){x.lR=f(y,x.l||hljs.IR,true);for(var w in x.k){if(!x.k.hasOwnProperty(w)){continue}if(x.k[w] instanceof Object){u=x.k[w]}else{u=x.k;w=&quot;keyword&quot;}for(var r in u){if(!u.hasOwnProperty(r)){continue}x.k[r]=[w,u[r]];s.push(r)}}}if(!v){if(x.bWK){x.b=&quot;\\b(&quot;+s.join(&quot;|&quot;)+&quot;)\\s&quot;}x.bR=f(y,x.b?x.b:&quot;\\B|\\b&quot;);if(!x.e&amp;&amp;!x.eW){x.e=&quot;\\B|\\b&quot;}if(x.e){x.eR=f(y,x.e)}}if(x.i){x.iR=f(y,x.i)}if(x.r===undefined){x.r=1}if(!x.c){x.c=[]}x.compiled=true;for(var t=0;t&lt;x.c.length;t++){if(x.c[t]==&quot;self&quot;){x.c[t]=x}q(x.c[t],y,false)}if(x.starts){q(x.starts,y,false)}}for(var p in e){if(!e.hasOwnProperty(p)){continue}q(e[p].dM,e[p],true)}}function d(B,C){if(!j.called){j();j.called=true}function q(r,M){for(var L=0;L&lt;M.c.length;L++){if((M.c[L].bR.exec(r)||[null])[0]==r){return M.c[L]}}}function v(L,r){if(D[L].e&amp;&amp;D[L].eR.test(r)){return 1}if(D[L].eW){var M=v(L-1,r);return M?M+1:0}return 0}function w(r,L){return L.i&amp;&amp;L.iR.test(r)}function K(N,O){var M=[];for(var L=0;L&lt;N.c.length;L++){M.push(N.c[L].b)}var r=D.length-1;do{if(D[r].e){M.push(D[r].e)}r--}while(D[r+1].eW);if(N.i){M.push(N.i)}return f(O,M.join(&quot;|&quot;),true)}function p(M,L){var N=D[D.length-1];if(!N.t){N.t=K(N,E)}N.t.lastIndex=L;var r=N.t.exec(M);return r?[M.substr(L,r.index-L),r[0],false]:[M.substr(L),&quot;&quot;,true]}function z(N,r){var L=E.cI?r[0].toLowerCase():r[0];var M=N.k[L];if(M&amp;&amp;M instanceof Array){return M}return false}function F(L,P){L=m(L);if(!P.k){return L}var r=&quot;&quot;;var O=0;P.lR.lastIndex=0;var M=P.lR.exec(L);while(M){r+=L.substr(O,M.index-O);var N=z(P,M);if(N){x+=N[1];r+=&#39;&lt;span class=&quot;&#39;+N[0]+&#39;&quot;&gt;&#39;+M[0]+&quot;&lt;/span&gt;&quot;}else{r+=M[0]}O=P.lR.lastIndex;M=P.lR.exec(L)}return r+L.substr(O,L.length-O)}function J(L,M){if(M.sL&amp;&amp;e[M.sL]){var r=d(M.sL,L);x+=r.keyword_count;return r.value}else{return F(L,M)}}function I(M,r){var L=M.cN?&#39;&lt;span class=&quot;&#39;+M.cN+&#39;&quot;&gt;&#39;:&quot;&quot;;if(M.rB){y+=L;M.buffer=&quot;&quot;}else{if(M.eB){y+=m(r)+L;M.buffer=&quot;&quot;}else{y+=L;M.buffer=r}}D.push(M);A+=M.r}function G(N,M,Q){var R=D[D.length-1];if(Q){y+=J(R.buffer+N,R);return false}var P=q(M,R);if(P){y+=J(R.buffer+N,R);I(P,M);return P.rB}var L=v(D.length-1,M);if(L){var O=R.cN?&quot;&lt;/span&gt;&quot;:&quot;&quot;;if(R.rE){y+=J(R.buffer+N,R)+O}else{if(R.eE){y+=J(R.buffer+N,R)+O+m(M)}else{y+=J(R.buffer+N+M,R)+O}}while(L&gt;1){O=D[D.length-2].cN?&quot;&lt;/span&gt;&quot;:&quot;&quot;;y+=O;L--;D.length--}var r=D[D.length-1];D.length--;D[D.length-1].buffer=&quot;&quot;;if(r.starts){I(r.starts,&quot;&quot;)}return R.rE}if(w(M,R)){throw&quot;Illegal&quot;}}var E=e[B];var D=[E.dM];var A=0;var x=0;var y=&quot;&quot;;try{var s,u=0;E.dM.buffer=&quot;&quot;;do{s=p(C,u);var t=G(s[0],s[1],s[2]);u+=s[0].length;if(!t){u+=s[1].length}}while(!s[2]);if(D.length&gt;1){throw&quot;Illegal&quot;}return{r:A,keyword_count:x,value:y}}catch(H){if(H==&quot;Illegal&quot;){return{r:0,keyword_count:0,value:m(C)}}else{throw H}}}function g(t){var p={keyword_count:0,r:0,value:m(t)};var r=p;for(var q in e){if(!e.hasOwnProperty(q)){continue}var s=d(q,t);s.language=q;if(s.keyword_count+s.r&gt;r.keyword_count+r.r){r=s}if(s.keyword_count+s.r&gt;p.keyword_count+p.r){r=p;p=s}}if(r.language){p.second_best=r}return p}function i(r,q,p){if(q){r=r.replace(/^((&lt;[^&gt;]+&gt;|\t)+)/gm,function(t,w,v,u){return w.replace(/\t/g,q)})}if(p){r=r.replace(/\n/g,&quot;&lt;br&gt;&quot;)}return r}function n(t,w,r){var x=h(t,r);var v=a(t);var y,s;if(v){y=d(v,x)}else{return}var q=c(t);if(q.length){s=document.createElement(&quot;pre&quot;);s.innerHTML=y.value;y.value=k(q,c(s),x)}y.value=i(y.value,w,r);var u=t.className;if(!u.match(&quot;(\\s|^)(language-)?&quot;+v+&quot;(\\s|$)&quot;)){u=u?(u+&quot; &quot;+v):v}if(/MSIE [678]/.test(navigator.userAgent)&amp;&amp;t.tagName==&quot;CODE&quot;&amp;&amp;t.parentNode.tagName==&quot;PRE&quot;){s=t.parentNode;var p=document.createElement(&quot;div&quot;);p.innerHTML=&quot;&lt;pre&gt;&lt;code&gt;&quot;+y.value+&quot;&lt;/code&gt;&lt;/pre&gt;&quot;;t=p.firstChild.firstChild;p.firstChild.cN=s.cN;s.parentNode.replaceChild(p.firstChild,s)}else{t.innerHTML=y.value}t.className=u;t.result={language:v,kw:y.keyword_count,re:y.r};if(y.second_best){t.second_best={language:y.second_best.language,kw:y.second_best.keyword_count,re:y.second_best.r}}}function o(){if(o.called){return}o.called=true;var r=document.getElementsByTagName(&quot;pre&quot;);for(var p=0;p&lt;r.length;p++){var q=b(r[p]);if(q){n(q,hljs.tabReplace)}}}function l(){if(window.addEventListener){window.addEventListener(&quot;DOMContentLoaded&quot;,o,false);window.addEventListener(&quot;load&quot;,o,false)}else{if(window.attachEvent){window.attachEvent(&quot;onload&quot;,o)}else{window.onload=o}}}var e={};this.LANGUAGES=e;this.highlight=d;this.highlightAuto=g;this.fixMarkup=i;this.highlightBlock=n;this.initHighlighting=o;this.initHighlightingOnLoad=l;this.IR=&quot;[a-zA-Z][a-zA-Z0-9_]*&quot;;this.UIR=&quot;[a-zA-Z_][a-zA-Z0-9_]*&quot;;this.NR=&quot;\\b\\d+(\\.\\d+)?&quot;;this.CNR=&quot;\\b(0[xX][a-fA-F0-9]+|(\\d+(\\.\\d*)?|\\.\\d+)([eE][-+]?\\d+)?)&quot;;this.BNR=&quot;\\b(0b[01]+)&quot;;this.RSR=&quot;!|!=|!==|%|%=|&amp;|&amp;&amp;|&amp;=|\\*|\\*=|\\+|\\+=|,|\\.|-|-=|/|/=|:|;|&lt;|&lt;&lt;|&lt;&lt;=|&lt;=|=|==|===|&gt;|&gt;=|&gt;&gt;|&gt;&gt;=|&gt;&gt;&gt;|&gt;&gt;&gt;=|\\?|\\[|\\{|\\(|\\^|\\^=|\\||\\|=|\\|\\||~&quot;;this.ER=&quot;(?![\\s\\S])&quot;;this.BE={b:&quot;\\\\.&quot;,r:0};this.ASM={cN:&quot;string&quot;,b:&quot;&#39;&quot;,e:&quot;&#39;&quot;,i:&quot;\\n&quot;,c:[this.BE],r:0};this.QSM={cN:&quot;string&quot;,b:&#39;&quot;&#39;,e:&#39;&quot;&#39;,i:&quot;\\n&quot;,c:[this.BE],r:0};this.CLCM={cN:&quot;comment&quot;,b:&quot;//&quot;,e:&quot;$&quot;};this.CBLCLM={cN:&quot;comment&quot;,b:&quot;/\\*&quot;,e:&quot;\\*/&quot;};this.HCM={cN:&quot;comment&quot;,b:&quot;#&quot;,e:&quot;$&quot;};this.NM={cN:&quot;number&quot;,b:this.NR,r:0};this.CNM={cN:&quot;number&quot;,b:this.CNR,r:0};this.BNM={cN:&quot;number&quot;,b:this.BNR,r:0};this.inherit=function(r,s){var p={};for(var q in r){p[q]=r[q]}if(s){for(var q in s){p[q]=s[q]}}return p}}();hljs.LANGUAGES.cpp=function(){var a={keyword:{&quot;false&quot;:1,&quot;int&quot;:1,&quot;float&quot;:1,&quot;while&quot;:1,&quot;private&quot;:1,&quot;char&quot;:1,&quot;catch&quot;:1,&quot;export&quot;:1,virtual:1,operator:2,sizeof:2,dynamic_cast:2,typedef:2,const_cast:2,&quot;const&quot;:1,struct:1,&quot;for&quot;:1,static_cast:2,union:1,namespace:1,unsigned:1,&quot;long&quot;:1,&quot;throw&quot;:1,&quot;volatile&quot;:2,&quot;static&quot;:1,&quot;protected&quot;:1,bool:1,template:1,mutable:1,&quot;if&quot;:1,&quot;public&quot;:1,friend:2,&quot;do&quot;:1,&quot;return&quot;:1,&quot;goto&quot;:1,auto:1,&quot;void&quot;:2,&quot;enum&quot;:1,&quot;else&quot;:1,&quot;break&quot;:1,&quot;new&quot;:1,extern:1,using:1,&quot;true&quot;:1,&quot;class&quot;:1,asm:1,&quot;case&quot;:1,typeid:1,&quot;short&quot;:1,reinterpret_cast:2,&quot;default&quot;:1,&quot;double&quot;:1,register:1,explicit:1,signed:1,typename:1,&quot;try&quot;:1,&quot;this&quot;:1,&quot;switch&quot;:1,&quot;continue&quot;:1,wchar_t:1,inline:1,&quot;delete&quot;:1,alignof:1,char16_t:1,char32_t:1,constexpr:1,decltype:1,noexcept:1,nullptr:1,static_assert:1,thread_local:1,restrict:1,_Bool:1,complex:1},built_in:{std:1,string:1,cin:1,cout:1,cerr:1,clog:1,stringstream:1,istringstream:1,ostringstream:1,auto_ptr:1,deque:1,list:1,queue:1,stack:1,vector:1,map:1,set:1,bitset:1,multiset:1,multimap:1,unordered_set:1,unordered_map:1,unordered_multiset:1,unordered_multimap:1,array:1,shared_ptr:1}};return{dM:{k:a,i:&quot;&lt;/&quot;,c:[hljs.CLCM,hljs.CBLCLM,hljs.QSM,{cN:&quot;string&quot;,b:&quot;&#39;\\\\?.&quot;,e:&quot;&#39;&quot;,i:&quot;.&quot;},{cN:&quot;number&quot;,b:&quot;\\b(\\d+(\\.\\d*)?|\\.\\d+)(u|U|l|L|ul|UL|f|F)&quot;},hljs.CNM,{cN:&quot;preprocessor&quot;,b:&quot;#&quot;,e:&quot;$&quot;},{cN:&quot;stl_container&quot;,b:&quot;\\b(deque|list|queue|stack|vector|map|set|bitset|multiset|multimap|unordered_map|unordered_set|unordered_multiset|unordered_multimap|array)\\s*&lt;&quot;,e:&quot;&gt;&quot;,k:a,r:10,c:[&quot;self&quot;]}]}}}();hljs.LANGUAGES.r={dM:{c:[hljs.HCM,{cN:&quot;number&quot;,b:&quot;\\b0[xX][0-9a-fA-F]+[Li]?\\b&quot;,e:hljs.IMMEDIATE_RE,r:0},{cN:&quot;number&quot;,b:&quot;\\b\\d+(?:[eE][+\\-]?\\d*)?L\\b&quot;,e:hljs.IMMEDIATE_RE,r:0},{cN:&quot;number&quot;,b:&quot;\\b\\d+\\.(?!\\d)(?:i\\b)?&quot;,e:hljs.IMMEDIATE_RE,r:1},{cN:&quot;number&quot;,b:&quot;\\b\\d+(?:\\.\\d*)?(?:[eE][+\\-]?\\d*)?i?\\b&quot;,e:hljs.IMMEDIATE_RE,r:0},{cN:&quot;number&quot;,b:&quot;\\.\\d+(?:[eE][+\\-]?\\d*)?i?\\b&quot;,e:hljs.IMMEDIATE_RE,r:1},{cN:&quot;keyword&quot;,b:&quot;(?:tryCatch|library|setGeneric|setGroupGeneric)\\b&quot;,e:hljs.IMMEDIATE_RE,r:10},{cN:&quot;keyword&quot;,b:&quot;\\.\\.\\.&quot;,e:hljs.IMMEDIATE_RE,r:10},{cN:&quot;keyword&quot;,b:&quot;\\.\\.\\d+(?![\\w.])&quot;,e:hljs.IMMEDIATE_RE,r:10},{cN:&quot;keyword&quot;,b:&quot;\\b(?:function)&quot;,e:hljs.IMMEDIATE_RE,r:2},{cN:&quot;keyword&quot;,b:&quot;(?:if|in|break|next|repeat|else|for|return|switch|while|try|stop|warning|require|attach|detach|source|setMethod|setClass)\\b&quot;,e:hljs.IMMEDIATE_RE,r:1},{cN:&quot;literal&quot;,b:&quot;(?:NA|NA_integer_|NA_real_|NA_character_|NA_complex_)\\b&quot;,e:hljs.IMMEDIATE_RE,r:10},{cN:&quot;literal&quot;,b:&quot;(?:NULL|TRUE|FALSE|T|F|Inf|NaN)\\b&quot;,e:hljs.IMMEDIATE_RE,r:1},{cN:&quot;identifier&quot;,b:&quot;[a-zA-Z.][a-zA-Z0-9._]*\\b&quot;,e:hljs.IMMEDIATE_RE,r:0},{cN:&quot;operator&quot;,b:&quot;&lt;\\-(?!\\s*\\d)&quot;,e:hljs.IMMEDIATE_RE,r:2},{cN:&quot;operator&quot;,b:&quot;\\-&gt;|&lt;\\-&quot;,e:hljs.IMMEDIATE_RE,r:1},{cN:&quot;operator&quot;,b:&quot;%%|~&quot;,e:hljs.IMMEDIATE_RE},{cN:&quot;operator&quot;,b:&quot;&gt;=|&lt;=|==|!=|\\|\\||&amp;&amp;|=|\\+|\\-|\\*|/|\\^|&gt;|&lt;|!|&amp;|\\||\\$|:&quot;,e:hljs.IMMEDIATE_RE,r:0},{cN:&quot;operator&quot;,b:&quot;%&quot;,e:&quot;%&quot;,i:&quot;\\n&quot;,r:1},{cN:&quot;identifier&quot;,b:&quot;`&quot;,e:&quot;`&quot;,r:0},{cN:&quot;string&quot;,b:&#39;&quot;&#39;,e:&#39;&quot;&#39;,c:[hljs.BE],r:0},{cN:&quot;string&quot;,b:&quot;&#39;&quot;,e:&quot;&#39;&quot;,c:[hljs.BE],r:0},{cN:&quot;paren&quot;,b:&quot;[[({\\])}]&quot;,e:hljs.IMMEDIATE_RE,r:0}]}};</span></td>
+      </tr>
+      <tr>
+        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">hljs.initHighlightingOnLoad();</span></td>
+      </tr>
+      <tr>
+        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">&lt;/<span class="pl-ent">script</span>&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
+        <td id="LC62" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">&lt;<span class="pl-ent">style</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>text/css<span class="pl-pds">&quot;</span></span>&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">body</span>, <span class="pl-ent">td</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
+        <td id="LC64" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">font-family</span></span>: <span class="pl-c1">sans-serif</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
+        <td id="LC65" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">background-color</span></span>: <span class="pl-c1">white</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
+        <td id="LC66" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">font-size</span></span>: <span class="pl-c1">13<span class="pl-k">px</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
+        <td id="LC67" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
+        <td id="LC68" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
+        <td id="LC69" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">body</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
+        <td id="LC70" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-c1"><span class="pl-c1">max-width</span></span>: <span class="pl-c1">800<span class="pl-k">px</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
+        <td id="LC71" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-c1"><span class="pl-c1">margin</span></span>: <span class="pl-c1">auto</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
+        <td id="LC72" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-c1"><span class="pl-c1">padding</span></span>: <span class="pl-c1">1<span class="pl-k">em</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-c1"><span class="pl-c1">line-height</span></span>: <span class="pl-c1">20<span class="pl-k">px</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
+        <td id="LC74" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
+        <td id="LC75" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
+        <td id="LC76" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">tt</span>, <span class="pl-ent">code</span>, <span class="pl-ent">pre</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
+        <td id="LC77" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">font-family</span></span>: <span class="pl-s"><span class="pl-pds">&#39;</span>DejaVu Sans Mono<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>Droid Sans Mono<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>Lucida Console<span class="pl-pds">&#39;</span></span>, Consolas, Monaco, <span class="pl-c1">monospace</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
+        <td id="LC78" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
+        <td id="LC79" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
+        <td id="LC80" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">h1</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
+        <td id="LC81" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">font-size</span></span>:<span class="pl-c1">2.2<span class="pl-k">em</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
+        <td id="LC82" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
+        <td id="LC83" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
+        <td id="LC84" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">h2</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
+        <td id="LC85" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">font-size</span></span>:<span class="pl-c1">1.8<span class="pl-k">em</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
+        <td id="LC86" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
+        <td id="LC87" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
+        <td id="LC88" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">h3</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
+        <td id="LC89" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">font-size</span></span>:<span class="pl-c1">1.4<span class="pl-k">em</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
+        <td id="LC90" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
+        <td id="LC91" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
+        <td id="LC92" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">h4</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
+        <td id="LC93" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">font-size</span></span>:<span class="pl-c1">1.0<span class="pl-k">em</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
+        <td id="LC94" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
+        <td id="LC95" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
+        <td id="LC96" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">h5</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
+        <td id="LC97" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">font-size</span></span>:<span class="pl-c1">0.9<span class="pl-k">em</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
+        <td id="LC98" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
+        <td id="LC99" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
+        <td id="LC100" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">h6</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
+        <td id="LC101" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">font-size</span></span>:<span class="pl-c1">0.8<span class="pl-k">em</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
+        <td id="LC102" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
+        <td id="LC103" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
+        <td id="LC104" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">a</span><span class="pl-e">:visited</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
+        <td id="LC105" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">rgb</span>(<span class="pl-c1">50%, 0%, 50%</span>);</span></td>
+      </tr>
+      <tr>
+        <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
+        <td id="LC106" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
+        <td id="LC107" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
+        <td id="LC108" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">pre</span>, <span class="pl-ent">img</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
+        <td id="LC109" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-c1"><span class="pl-c1">max-width</span></span>: <span class="pl-c1">100<span class="pl-k">%</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
+        <td id="LC110" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
+        <td id="LC111" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">pre</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
+        <td id="LC112" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-c1"><span class="pl-c1">overflow-x</span></span>: <span class="pl-c1">auto</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
+        <td id="LC113" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
+        <td id="LC114" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">pre</span> <span class="pl-ent">code</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
+        <td id="LC115" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">display</span></span>: <span class="pl-c1">block</span>; <span class="pl-c1"><span class="pl-c1">padding</span></span>: <span class="pl-c1">0.5<span class="pl-k">em</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
+        <td id="LC116" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
+        <td id="LC117" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
+        <td id="LC118" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">code</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
+        <td id="LC119" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-c1"><span class="pl-c1">font-size</span></span>: <span class="pl-c1">92<span class="pl-k">%</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L120" class="blob-num js-line-number" data-line-number="120"></td>
+        <td id="LC120" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-c1"><span class="pl-c1">border</span></span>: <span class="pl-c1">1<span class="pl-k">px</span></span> <span class="pl-c1">solid</span> <span class="pl-c1">#ccc</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L121" class="blob-num js-line-number" data-line-number="121"></td>
+        <td id="LC121" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L122" class="blob-num js-line-number" data-line-number="122"></td>
+        <td id="LC122" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L123" class="blob-num js-line-number" data-line-number="123"></td>
+        <td id="LC123" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">code</span>[class] {</span></td>
+      </tr>
+      <tr>
+        <td id="L124" class="blob-num js-line-number" data-line-number="124"></td>
+        <td id="LC124" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-c1"><span class="pl-c1">background-color</span></span>: <span class="pl-c1">#F8F8F8</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L125" class="blob-num js-line-number" data-line-number="125"></td>
+        <td id="LC125" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L126" class="blob-num js-line-number" data-line-number="126"></td>
+        <td id="LC126" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L127" class="blob-num js-line-number" data-line-number="127"></td>
+        <td id="LC127" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">table</span>, <span class="pl-ent">td</span>, <span class="pl-ent">th</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L128" class="blob-num js-line-number" data-line-number="128"></td>
+        <td id="LC128" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  <span class="pl-c1"><span class="pl-c1">border</span></span>: <span class="pl-c1">none</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L129" class="blob-num js-line-number" data-line-number="129"></td>
+        <td id="LC129" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L130" class="blob-num js-line-number" data-line-number="130"></td>
+        <td id="LC130" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L131" class="blob-num js-line-number" data-line-number="131"></td>
+        <td id="LC131" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">blockquote</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L132" class="blob-num js-line-number" data-line-number="132"></td>
+        <td id="LC132" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">color</span></span>:<span class="pl-c1">#666666</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L133" class="blob-num js-line-number" data-line-number="133"></td>
+        <td id="LC133" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">margin</span></span>:<span class="pl-c1">0</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L134" class="blob-num js-line-number" data-line-number="134"></td>
+        <td id="LC134" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">padding-left</span></span>: <span class="pl-c1">1<span class="pl-k">em</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L135" class="blob-num js-line-number" data-line-number="135"></td>
+        <td id="LC135" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">border-left</span></span>: <span class="pl-c1">0.5<span class="pl-k">em</span></span> <span class="pl-c1">#EEE</span> <span class="pl-c1">solid</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L136" class="blob-num js-line-number" data-line-number="136"></td>
+        <td id="LC136" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L137" class="blob-num js-line-number" data-line-number="137"></td>
+        <td id="LC137" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L138" class="blob-num js-line-number" data-line-number="138"></td>
+        <td id="LC138" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-ent">hr</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L139" class="blob-num js-line-number" data-line-number="139"></td>
+        <td id="LC139" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">height</span></span>: <span class="pl-c1">0<span class="pl-k">px</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L140" class="blob-num js-line-number" data-line-number="140"></td>
+        <td id="LC140" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">border-bottom</span></span>: <span class="pl-c1">none</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L141" class="blob-num js-line-number" data-line-number="141"></td>
+        <td id="LC141" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">border-top-width</span></span>: <span class="pl-c1">thin</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L142" class="blob-num js-line-number" data-line-number="142"></td>
+        <td id="LC142" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">border-top-style</span></span>: <span class="pl-c1">dotted</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L143" class="blob-num js-line-number" data-line-number="143"></td>
+        <td id="LC143" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-c1"><span class="pl-c1">border-top-color</span></span>: <span class="pl-c1">#999999</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L144" class="blob-num js-line-number" data-line-number="144"></td>
+        <td id="LC144" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L145" class="blob-num js-line-number" data-line-number="145"></td>
+        <td id="LC145" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L146" class="blob-num js-line-number" data-line-number="146"></td>
+        <td id="LC146" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"><span class="pl-k">@media</span> <span class="pl-c1">print</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L147" class="blob-num js-line-number" data-line-number="147"></td>
+        <td id="LC147" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-ent">*</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L148" class="blob-num js-line-number" data-line-number="148"></td>
+        <td id="LC148" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1"><span class="pl-c1">background</span></span>: <span class="pl-c1">transparent</span> <span class="pl-k">!important</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L149" class="blob-num js-line-number" data-line-number="149"></td>
+        <td id="LC149" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1"><span class="pl-c1">color</span></span>: <span class="pl-c1">black</span> <span class="pl-k">!important</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L150" class="blob-num js-line-number" data-line-number="150"></td>
+        <td id="LC150" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1"><span class="pl-c1">filter</span></span>:<span class="pl-c1">none</span> <span class="pl-k">!important</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L151" class="blob-num js-line-number" data-line-number="151"></td>
+        <td id="LC151" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1">-ms-<span class="pl-c1">filter</span></span>: <span class="pl-c1">none</span> <span class="pl-k">!important</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L152" class="blob-num js-line-number" data-line-number="152"></td>
+        <td id="LC152" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L153" class="blob-num js-line-number" data-line-number="153"></td>
+        <td id="LC153" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L154" class="blob-num js-line-number" data-line-number="154"></td>
+        <td id="LC154" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-ent">body</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L155" class="blob-num js-line-number" data-line-number="155"></td>
+        <td id="LC155" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1"><span class="pl-c1">font-size</span></span>:<span class="pl-c1">12<span class="pl-k">pt</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L156" class="blob-num js-line-number" data-line-number="156"></td>
+        <td id="LC156" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1"><span class="pl-c1">max-width</span></span>:<span class="pl-c1">100<span class="pl-k">%</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L157" class="blob-num js-line-number" data-line-number="157"></td>
+        <td id="LC157" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L158" class="blob-num js-line-number" data-line-number="158"></td>
+        <td id="LC158" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L159" class="blob-num js-line-number" data-line-number="159"></td>
+        <td id="LC159" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-ent">a</span>, <span class="pl-ent">a</span><span class="pl-e">:visited</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L160" class="blob-num js-line-number" data-line-number="160"></td>
+        <td id="LC160" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1"><span class="pl-c1">text-decoration</span></span>: <span class="pl-c1">underline</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L161" class="blob-num js-line-number" data-line-number="161"></td>
+        <td id="LC161" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L162" class="blob-num js-line-number" data-line-number="162"></td>
+        <td id="LC162" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L163" class="blob-num js-line-number" data-line-number="163"></td>
+        <td id="LC163" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-ent">hr</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L164" class="blob-num js-line-number" data-line-number="164"></td>
+        <td id="LC164" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1"><span class="pl-c1">visibility</span></span>: <span class="pl-c1">hidden</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L165" class="blob-num js-line-number" data-line-number="165"></td>
+        <td id="LC165" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1"><span class="pl-c1">page-break-before</span></span>: <span class="pl-c1">always</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L166" class="blob-num js-line-number" data-line-number="166"></td>
+        <td id="LC166" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L167" class="blob-num js-line-number" data-line-number="167"></td>
+        <td id="LC167" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L168" class="blob-num js-line-number" data-line-number="168"></td>
+        <td id="LC168" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-ent">pre</span>, <span class="pl-ent">blockquote</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L169" class="blob-num js-line-number" data-line-number="169"></td>
+        <td id="LC169" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1"><span class="pl-c1">padding-right</span></span>: <span class="pl-c1">1<span class="pl-k">em</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L170" class="blob-num js-line-number" data-line-number="170"></td>
+        <td id="LC170" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1"><span class="pl-c1">page-break-inside</span></span>: <span class="pl-c1">avoid</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L171" class="blob-num js-line-number" data-line-number="171"></td>
+        <td id="LC171" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L172" class="blob-num js-line-number" data-line-number="172"></td>
+        <td id="LC172" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L173" class="blob-num js-line-number" data-line-number="173"></td>
+        <td id="LC173" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-ent">tr</span>, <span class="pl-ent">img</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L174" class="blob-num js-line-number" data-line-number="174"></td>
+        <td id="LC174" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1"><span class="pl-c1">page-break-inside</span></span>: <span class="pl-c1">avoid</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L175" class="blob-num js-line-number" data-line-number="175"></td>
+        <td id="LC175" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L176" class="blob-num js-line-number" data-line-number="176"></td>
+        <td id="LC176" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L177" class="blob-num js-line-number" data-line-number="177"></td>
+        <td id="LC177" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-ent">img</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L178" class="blob-num js-line-number" data-line-number="178"></td>
+        <td id="LC178" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1"><span class="pl-c1">max-width</span></span>: <span class="pl-c1">100<span class="pl-k">%</span></span> <span class="pl-k">!important</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L179" class="blob-num js-line-number" data-line-number="179"></td>
+        <td id="LC179" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L180" class="blob-num js-line-number" data-line-number="180"></td>
+        <td id="LC180" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L181" class="blob-num js-line-number" data-line-number="181"></td>
+        <td id="LC181" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   @page <span class="pl-e">:left</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L182" class="blob-num js-line-number" data-line-number="182"></td>
+        <td id="LC182" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1"><span class="pl-c1">margin</span></span>: <span class="pl-c1">15<span class="pl-k">mm</span></span> <span class="pl-c1">20<span class="pl-k">mm</span></span> <span class="pl-c1">15<span class="pl-k">mm</span></span> <span class="pl-c1">10<span class="pl-k">mm</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L183" class="blob-num js-line-number" data-line-number="183"></td>
+        <td id="LC183" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L184" class="blob-num js-line-number" data-line-number="184"></td>
+        <td id="LC184" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L185" class="blob-num js-line-number" data-line-number="185"></td>
+        <td id="LC185" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   @page <span class="pl-e">:right</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L186" class="blob-num js-line-number" data-line-number="186"></td>
+        <td id="LC186" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1"><span class="pl-c1">margin</span></span>: <span class="pl-c1">15<span class="pl-k">mm</span></span> <span class="pl-c1">10<span class="pl-k">mm</span></span> <span class="pl-c1">15<span class="pl-k">mm</span></span> <span class="pl-c1">20<span class="pl-k">mm</span></span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L187" class="blob-num js-line-number" data-line-number="187"></td>
+        <td id="LC187" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L188" class="blob-num js-line-number" data-line-number="188"></td>
+        <td id="LC188" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L189" class="blob-num js-line-number" data-line-number="189"></td>
+        <td id="LC189" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-ent">p</span>, <span class="pl-ent">h2</span>, <span class="pl-ent">h3</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L190" class="blob-num js-line-number" data-line-number="190"></td>
+        <td id="LC190" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1"><span class="pl-c1">orphans</span></span>: <span class="pl-c1">3</span>; <span class="pl-c1"><span class="pl-c1">widows</span></span>: <span class="pl-c1">3</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L191" class="blob-num js-line-number" data-line-number="191"></td>
+        <td id="LC191" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L192" class="blob-num js-line-number" data-line-number="192"></td>
+        <td id="LC192" class="blob-code blob-code-inner js-file-line"><span class="pl-s1"></span></td>
+      </tr>
+      <tr>
+        <td id="L193" class="blob-num js-line-number" data-line-number="193"></td>
+        <td id="LC193" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   <span class="pl-ent">h2</span>, <span class="pl-ent">h3</span> {</span></td>
+      </tr>
+      <tr>
+        <td id="L194" class="blob-num js-line-number" data-line-number="194"></td>
+        <td id="LC194" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">      <span class="pl-c1"><span class="pl-c1">page-break-after</span></span>: <span class="pl-c1">avoid</span>;</span></td>
+      </tr>
+      <tr>
+        <td id="L195" class="blob-num js-line-number" data-line-number="195"></td>
+        <td id="LC195" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">   }</span></td>
+      </tr>
+      <tr>
+        <td id="L196" class="blob-num js-line-number" data-line-number="196"></td>
+        <td id="LC196" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">}</span></td>
+      </tr>
+      <tr>
+        <td id="L197" class="blob-num js-line-number" data-line-number="197"></td>
+        <td id="LC197" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">&lt;/<span class="pl-ent">style</span>&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L198" class="blob-num js-line-number" data-line-number="198"></td>
+        <td id="LC198" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L199" class="blob-num js-line-number" data-line-number="199"></td>
+        <td id="LC199" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L200" class="blob-num js-line-number" data-line-number="200"></td>
+        <td id="LC200" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L201" class="blob-num js-line-number" data-line-number="201"></td>
+        <td id="LC201" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">head</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L202" class="blob-num js-line-number" data-line-number="202"></td>
+        <td id="LC202" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L203" class="blob-num js-line-number" data-line-number="203"></td>
+        <td id="LC203" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">body</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L204" class="blob-num js-line-number" data-line-number="204"></td>
+        <td id="LC204" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;This is an analisys of activity monitor collected data .</td>
+      </tr>
+      <tr>
+        <td id="L205" class="blob-num js-line-number" data-line-number="205"></td>
+        <td id="LC205" class="blob-code blob-code-inner js-file-line">The data for this analysis can be downloaded from &lt;<span class="pl-ent">a</span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip<span class="pl-pds">&quot;</span></span>&gt;https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip&lt;/<span class="pl-ent">a</span>&gt;.&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L206" class="blob-num js-line-number" data-line-number="206"></td>
+        <td id="LC206" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L207" class="blob-num js-line-number" data-line-number="207"></td>
+        <td id="LC207" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;After download and extraction, loading the file:&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L208" class="blob-num js-line-number" data-line-number="208"></td>
+        <td id="LC208" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L209" class="blob-num js-line-number" data-line-number="209"></td>
+        <td id="LC209" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>r<span class="pl-pds">&quot;</span></span>&gt;amd <span class="pl-c1">&amp;lt;</span>- read.csv(<span class="pl-c1">&amp;quot;</span>activity.csv<span class="pl-c1">&amp;quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L210" class="blob-num js-line-number" data-line-number="210"></td>
+        <td id="LC210" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L211" class="blob-num js-line-number" data-line-number="211"></td>
+        <td id="LC211" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L212" class="blob-num js-line-number" data-line-number="212"></td>
+        <td id="LC212" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span>&gt;## Warning in file(file, <span class="pl-c1">&amp;quot;</span>rt<span class="pl-c1">&amp;quot;</span>): cannot open file <span class="pl-c1">&amp;#39;</span>activity.csv<span class="pl-c1">&amp;#39;</span>: No such file</td>
+      </tr>
+      <tr>
+        <td id="L213" class="blob-num js-line-number" data-line-number="213"></td>
+        <td id="LC213" class="blob-code blob-code-inner js-file-line">## or directory</td>
+      </tr>
+      <tr>
+        <td id="L214" class="blob-num js-line-number" data-line-number="214"></td>
+        <td id="LC214" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L215" class="blob-num js-line-number" data-line-number="215"></td>
+        <td id="LC215" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L216" class="blob-num js-line-number" data-line-number="216"></td>
+        <td id="LC216" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span>&gt;## Error in file(file, <span class="pl-c1">&amp;quot;</span>rt<span class="pl-c1">&amp;quot;</span>): cannot open the connection</td>
+      </tr>
+      <tr>
+        <td id="L217" class="blob-num js-line-number" data-line-number="217"></td>
+        <td id="LC217" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L218" class="blob-num js-line-number" data-line-number="218"></td>
+        <td id="LC218" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L219" class="blob-num js-line-number" data-line-number="219"></td>
+        <td id="LC219" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;##Daily Steps</td>
+      </tr>
+      <tr>
+        <td id="L220" class="blob-num js-line-number" data-line-number="220"></td>
+        <td id="LC220" class="blob-code blob-code-inner js-file-line">The number of daily steps is calculated by:&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L221" class="blob-num js-line-number" data-line-number="221"></td>
+        <td id="LC221" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L222" class="blob-num js-line-number" data-line-number="222"></td>
+        <td id="LC222" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>r<span class="pl-pds">&quot;</span></span>&gt;days <span class="pl-c1">&amp;lt;</span>- levels(amd$<span class="pl-c1">&amp;quot;</span>date<span class="pl-c1">&amp;quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L223" class="blob-num js-line-number" data-line-number="223"></td>
+        <td id="LC223" class="blob-code blob-code-inner js-file-line">daily_steps <span class="pl-c1">&amp;lt;</span>- vector(length = length(days), mode = <span class="pl-c1">&amp;quot;</span>numeric<span class="pl-c1">&amp;quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L224" class="blob-num js-line-number" data-line-number="224"></td>
+        <td id="LC224" class="blob-code blob-code-inner js-file-line">index <span class="pl-c1">&amp;lt;</span>- 1</td>
+      </tr>
+      <tr>
+        <td id="L225" class="blob-num js-line-number" data-line-number="225"></td>
+        <td id="LC225" class="blob-code blob-code-inner js-file-line">for(i in days)</td>
+      </tr>
+      <tr>
+        <td id="L226" class="blob-num js-line-number" data-line-number="226"></td>
+        <td id="LC226" class="blob-code blob-code-inner js-file-line">{</td>
+      </tr>
+      <tr>
+        <td id="L227" class="blob-num js-line-number" data-line-number="227"></td>
+        <td id="LC227" class="blob-code blob-code-inner js-file-line">    daily_steps[index] <span class="pl-c1">&amp;lt;</span>- sum(amd$<span class="pl-c1">&amp;quot;</span>steps<span class="pl-c1">&amp;quot;</span>[amd$<span class="pl-c1">&amp;quot;</span>date<span class="pl-c1">&amp;quot;</span> == i], na.rm = TRUE)</td>
+      </tr>
+      <tr>
+        <td id="L228" class="blob-num js-line-number" data-line-number="228"></td>
+        <td id="LC228" class="blob-code blob-code-inner js-file-line">    index <span class="pl-c1">&amp;lt;</span>- index + 1</td>
+      </tr>
+      <tr>
+        <td id="L229" class="blob-num js-line-number" data-line-number="229"></td>
+        <td id="LC229" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L230" class="blob-num js-line-number" data-line-number="230"></td>
+        <td id="LC230" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L231" class="blob-num js-line-number" data-line-number="231"></td>
+        <td id="LC231" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L232" class="blob-num js-line-number" data-line-number="232"></td>
+        <td id="LC232" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;A histogram for the number of daily steps is plotted by:&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L233" class="blob-num js-line-number" data-line-number="233"></td>
+        <td id="LC233" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L234" class="blob-num js-line-number" data-line-number="234"></td>
+        <td id="LC234" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>r<span class="pl-pds">&quot;</span></span>&gt;hist(daily_steps, col = <span class="pl-c1">&amp;quot;</span>RED<span class="pl-c1">&amp;quot;</span>, xlab = <span class="pl-c1">&amp;quot;</span>Number of steps per day<span class="pl-c1">&amp;quot;</span>, main = <span class="pl-c1">&amp;quot;</span>Daily Steps<span class="pl-c1">&amp;quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L235" class="blob-num js-line-number" data-line-number="235"></td>
+        <td id="LC235" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L236" class="blob-num js-line-number" data-line-number="236"></td>
+        <td id="LC236" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L237" class="blob-num js-line-number" data-line-number="237"></td>
+        <td id="LC237" class="blob-code blob-code-inner js-file-line">&lt;p&gt;&lt;img src=&quot;data:image/png;base64,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&quot; alt=&quot;plot of chunk unnamed-chunk-3&quot;/&gt; &lt;/p&gt;</td>
+      </tr>
+      <tr>
+        <td id="L238" class="blob-num js-line-number" data-line-number="238"></td>
+        <td id="LC238" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L239" class="blob-num js-line-number" data-line-number="239"></td>
+        <td id="LC239" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;And the mean and media are calculated by:&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L240" class="blob-num js-line-number" data-line-number="240"></td>
+        <td id="LC240" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L241" class="blob-num js-line-number" data-line-number="241"></td>
+        <td id="LC241" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>r<span class="pl-pds">&quot;</span></span>&gt;print(paste(<span class="pl-c1">&amp;quot;</span>The mean number of daily steps is<span class="pl-c1">&amp;quot;</span>,</td>
+      </tr>
+      <tr>
+        <td id="L242" class="blob-num js-line-number" data-line-number="242"></td>
+        <td id="LC242" class="blob-code blob-code-inner js-file-line">            toString(mean(daily_steps, na.rm = TRUE)),</td>
+      </tr>
+      <tr>
+        <td id="L243" class="blob-num js-line-number" data-line-number="243"></td>
+        <td id="LC243" class="blob-code blob-code-inner js-file-line">            <span class="pl-c1">&amp;quot;</span>and the median is<span class="pl-c1">&amp;quot;</span>,</td>
+      </tr>
+      <tr>
+        <td id="L244" class="blob-num js-line-number" data-line-number="244"></td>
+        <td id="LC244" class="blob-code blob-code-inner js-file-line">            toString(median(daily_steps, na.rm = TRUE))))</td>
+      </tr>
+      <tr>
+        <td id="L245" class="blob-num js-line-number" data-line-number="245"></td>
+        <td id="LC245" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L246" class="blob-num js-line-number" data-line-number="246"></td>
+        <td id="LC246" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L247" class="blob-num js-line-number" data-line-number="247"></td>
+        <td id="LC247" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span>&gt;## [1] <span class="pl-c1">&amp;quot;</span>The mean number of daily steps is 9354.22950819672 and the median is 10395<span class="pl-c1">&amp;quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L248" class="blob-num js-line-number" data-line-number="248"></td>
+        <td id="LC248" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L249" class="blob-num js-line-number" data-line-number="249"></td>
+        <td id="LC249" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L250" class="blob-num js-line-number" data-line-number="250"></td>
+        <td id="LC250" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;##Interval Average</td>
+      </tr>
+      <tr>
+        <td id="L251" class="blob-num js-line-number" data-line-number="251"></td>
+        <td id="LC251" class="blob-code blob-code-inner js-file-line">The average number of steps in a given 5 minute interval in the day is calculated by:&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L252" class="blob-num js-line-number" data-line-number="252"></td>
+        <td id="LC252" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L253" class="blob-num js-line-number" data-line-number="253"></td>
+        <td id="LC253" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>r<span class="pl-pds">&quot;</span></span>&gt;intervals <span class="pl-c1">&amp;lt;</span>- amd$<span class="pl-c1">&amp;quot;</span>interval<span class="pl-c1">&amp;quot;</span>[amd$<span class="pl-c1">&amp;quot;</span>date<span class="pl-c1">&amp;quot;</span> == amd[1,2]]</td>
+      </tr>
+      <tr>
+        <td id="L254" class="blob-num js-line-number" data-line-number="254"></td>
+        <td id="LC254" class="blob-code blob-code-inner js-file-line">avg_interval_steps <span class="pl-c1">&amp;lt;</span>- vector(length = length(intervals), mode = <span class="pl-c1">&amp;quot;</span>numeric<span class="pl-c1">&amp;quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L255" class="blob-num js-line-number" data-line-number="255"></td>
+        <td id="LC255" class="blob-code blob-code-inner js-file-line">index <span class="pl-c1">&amp;lt;</span>- 1</td>
+      </tr>
+      <tr>
+        <td id="L256" class="blob-num js-line-number" data-line-number="256"></td>
+        <td id="LC256" class="blob-code blob-code-inner js-file-line">for(i in intervals)</td>
+      </tr>
+      <tr>
+        <td id="L257" class="blob-num js-line-number" data-line-number="257"></td>
+        <td id="LC257" class="blob-code blob-code-inner js-file-line">{</td>
+      </tr>
+      <tr>
+        <td id="L258" class="blob-num js-line-number" data-line-number="258"></td>
+        <td id="LC258" class="blob-code blob-code-inner js-file-line">    avg_interval_steps[index] <span class="pl-c1">&amp;lt;</span>- mean(amd$<span class="pl-c1">&amp;quot;</span>steps<span class="pl-c1">&amp;quot;</span>[amd$<span class="pl-c1">&amp;quot;</span>interval<span class="pl-c1">&amp;quot;</span> == i], na.rm = TRUE)</td>
+      </tr>
+      <tr>
+        <td id="L259" class="blob-num js-line-number" data-line-number="259"></td>
+        <td id="LC259" class="blob-code blob-code-inner js-file-line">    index <span class="pl-c1">&amp;lt;</span>- index + 1</td>
+      </tr>
+      <tr>
+        <td id="L260" class="blob-num js-line-number" data-line-number="260"></td>
+        <td id="LC260" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L261" class="blob-num js-line-number" data-line-number="261"></td>
+        <td id="LC261" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L262" class="blob-num js-line-number" data-line-number="262"></td>
+        <td id="LC262" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L263" class="blob-num js-line-number" data-line-number="263"></td>
+        <td id="LC263" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;The average number of steps changes along the daily intervals like so:&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L264" class="blob-num js-line-number" data-line-number="264"></td>
+        <td id="LC264" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L265" class="blob-num js-line-number" data-line-number="265"></td>
+        <td id="LC265" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>r<span class="pl-pds">&quot;</span></span>&gt;plot( intervals, avg_interval_steps, type = <span class="pl-c1">&amp;quot;</span>l<span class="pl-c1">&amp;quot;</span>, xlab=<span class="pl-c1">&amp;quot;</span>Daily interval<span class="pl-c1">&amp;quot;</span>, ylab=<span class="pl-c1">&amp;quot;</span>Average number of steps<span class="pl-c1">&amp;quot;</span> )</td>
+      </tr>
+      <tr>
+        <td id="L266" class="blob-num js-line-number" data-line-number="266"></td>
+        <td id="LC266" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L267" class="blob-num js-line-number" data-line-number="267"></td>
+        <td id="LC267" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L268" class="blob-num js-line-number" data-line-number="268"></td>
+        <td id="LC268" class="blob-code blob-code-inner js-file-line">&lt;p&gt;&lt;img src=&quot;data:image/png;base64,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&quot; alt=&quot;plot of chunk unnamed-chunk-6&quot;/&gt; &lt;/p&gt;</td>
+      </tr>
+      <tr>
+        <td id="L269" class="blob-num js-line-number" data-line-number="269"></td>
+        <td id="LC269" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L270" class="blob-num js-line-number" data-line-number="270"></td>
+        <td id="LC270" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;The daily 5 minute interval with the maximum average steps is:&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L271" class="blob-num js-line-number" data-line-number="271"></td>
+        <td id="LC271" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L272" class="blob-num js-line-number" data-line-number="272"></td>
+        <td id="LC272" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>r<span class="pl-pds">&quot;</span></span>&gt;intervals[avg_interval_steps == max(avg_interval_steps)]</td>
+      </tr>
+      <tr>
+        <td id="L273" class="blob-num js-line-number" data-line-number="273"></td>
+        <td id="LC273" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L274" class="blob-num js-line-number" data-line-number="274"></td>
+        <td id="LC274" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L275" class="blob-num js-line-number" data-line-number="275"></td>
+        <td id="LC275" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span>&gt;## [1] 835</td>
+      </tr>
+      <tr>
+        <td id="L276" class="blob-num js-line-number" data-line-number="276"></td>
+        <td id="LC276" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L277" class="blob-num js-line-number" data-line-number="277"></td>
+        <td id="LC277" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L278" class="blob-num js-line-number" data-line-number="278"></td>
+        <td id="LC278" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;##Missing Values</td>
+      </tr>
+      <tr>
+        <td id="L279" class="blob-num js-line-number" data-line-number="279"></td>
+        <td id="LC279" class="blob-code blob-code-inner js-file-line">Counting the missing values in the dataset:&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L280" class="blob-num js-line-number" data-line-number="280"></td>
+        <td id="LC280" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L281" class="blob-num js-line-number" data-line-number="281"></td>
+        <td id="LC281" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>r<span class="pl-pds">&quot;</span></span>&gt;missing_steps <span class="pl-c1">&amp;lt;</span>- sum(is.na(amd$<span class="pl-c1">&amp;quot;</span>steps<span class="pl-c1">&amp;quot;</span>))</td>
+      </tr>
+      <tr>
+        <td id="L282" class="blob-num js-line-number" data-line-number="282"></td>
+        <td id="LC282" class="blob-code blob-code-inner js-file-line">missing_dates <span class="pl-c1">&amp;lt;</span>- sum(is.na(amd$<span class="pl-c1">&amp;quot;</span>date<span class="pl-c1">&amp;quot;</span>))</td>
+      </tr>
+      <tr>
+        <td id="L283" class="blob-num js-line-number" data-line-number="283"></td>
+        <td id="LC283" class="blob-code blob-code-inner js-file-line">missing_intervals <span class="pl-c1">&amp;lt;</span>- sum(is.na(amd$<span class="pl-c1">&amp;quot;</span>interval<span class="pl-c1">&amp;quot;</span>))</td>
+      </tr>
+      <tr>
+        <td id="L284" class="blob-num js-line-number" data-line-number="284"></td>
+        <td id="LC284" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L285" class="blob-num js-line-number" data-line-number="285"></td>
+        <td id="LC285" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L286" class="blob-num js-line-number" data-line-number="286"></td>
+        <td id="LC286" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;There are 2304 missing values in the <span class="pl-c1">&amp;ldquo;</span>steps<span class="pl-c1">&amp;rdquo;</span> column, 0 missing values in the <span class="pl-c1">&amp;ldquo;</span>dates<span class="pl-c1">&amp;rdquo;</span> column and 0 missing values in the <span class="pl-c1">&amp;ldquo;</span>intervals<span class="pl-c1">&amp;rdquo;</span> column.&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L287" class="blob-num js-line-number" data-line-number="287"></td>
+        <td id="LC287" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L288" class="blob-num js-line-number" data-line-number="288"></td>
+        <td id="LC288" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;The interval<span class="pl-c1">&amp;#39;</span>s average number of steps will be used to fill in for a missing value in the <span class="pl-c1">&amp;ldquo;</span>steps<span class="pl-c1">&amp;rdquo;</span> column.&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L289" class="blob-num js-line-number" data-line-number="289"></td>
+        <td id="LC289" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L290" class="blob-num js-line-number" data-line-number="290"></td>
+        <td id="LC290" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>r<span class="pl-pds">&quot;</span></span>&gt;filled_amd <span class="pl-c1">&amp;lt;</span>- amd</td>
+      </tr>
+      <tr>
+        <td id="L291" class="blob-num js-line-number" data-line-number="291"></td>
+        <td id="LC291" class="blob-code blob-code-inner js-file-line">for ( i in c(1:length(filled_amd$<span class="pl-c1">&amp;quot;</span>steps<span class="pl-c1">&amp;quot;</span>)) )</td>
+      </tr>
+      <tr>
+        <td id="L292" class="blob-num js-line-number" data-line-number="292"></td>
+        <td id="LC292" class="blob-code blob-code-inner js-file-line">{</td>
+      </tr>
+      <tr>
+        <td id="L293" class="blob-num js-line-number" data-line-number="293"></td>
+        <td id="LC293" class="blob-code blob-code-inner js-file-line">    if(is.na(filled_amd[i,1]))</td>
+      </tr>
+      <tr>
+        <td id="L294" class="blob-num js-line-number" data-line-number="294"></td>
+        <td id="LC294" class="blob-code blob-code-inner js-file-line">    {</td>
+      </tr>
+      <tr>
+        <td id="L295" class="blob-num js-line-number" data-line-number="295"></td>
+        <td id="LC295" class="blob-code blob-code-inner js-file-line">        filled_amd[i,1] <span class="pl-c1">&amp;lt;</span>- avg_interval_steps[intervals == filled_amd[i,3]]</td>
+      </tr>
+      <tr>
+        <td id="L296" class="blob-num js-line-number" data-line-number="296"></td>
+        <td id="LC296" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L297" class="blob-num js-line-number" data-line-number="297"></td>
+        <td id="LC297" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L298" class="blob-num js-line-number" data-line-number="298"></td>
+        <td id="LC298" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L299" class="blob-num js-line-number" data-line-number="299"></td>
+        <td id="LC299" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L300" class="blob-num js-line-number" data-line-number="300"></td>
+        <td id="LC300" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;##Daily Steps With Filled-In Missing Values</td>
+      </tr>
+      <tr>
+        <td id="L301" class="blob-num js-line-number" data-line-number="301"></td>
+        <td id="LC301" class="blob-code blob-code-inner js-file-line">The number of daily steps is calculated by:&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L302" class="blob-num js-line-number" data-line-number="302"></td>
+        <td id="LC302" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L303" class="blob-num js-line-number" data-line-number="303"></td>
+        <td id="LC303" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>r<span class="pl-pds">&quot;</span></span>&gt;days <span class="pl-c1">&amp;lt;</span>- levels(filled_amd$<span class="pl-c1">&amp;quot;</span>date<span class="pl-c1">&amp;quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L304" class="blob-num js-line-number" data-line-number="304"></td>
+        <td id="LC304" class="blob-code blob-code-inner js-file-line">daily_steps <span class="pl-c1">&amp;lt;</span>- vector(length = length(days), mode = <span class="pl-c1">&amp;quot;</span>numeric<span class="pl-c1">&amp;quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L305" class="blob-num js-line-number" data-line-number="305"></td>
+        <td id="LC305" class="blob-code blob-code-inner js-file-line">index <span class="pl-c1">&amp;lt;</span>- 1</td>
+      </tr>
+      <tr>
+        <td id="L306" class="blob-num js-line-number" data-line-number="306"></td>
+        <td id="LC306" class="blob-code blob-code-inner js-file-line">for(i in days)</td>
+      </tr>
+      <tr>
+        <td id="L307" class="blob-num js-line-number" data-line-number="307"></td>
+        <td id="LC307" class="blob-code blob-code-inner js-file-line">{</td>
+      </tr>
+      <tr>
+        <td id="L308" class="blob-num js-line-number" data-line-number="308"></td>
+        <td id="LC308" class="blob-code blob-code-inner js-file-line">    daily_steps[index] <span class="pl-c1">&amp;lt;</span>- sum(filled_amd$<span class="pl-c1">&amp;quot;</span>steps<span class="pl-c1">&amp;quot;</span>[filled_amd$<span class="pl-c1">&amp;quot;</span>date<span class="pl-c1">&amp;quot;</span> == i], na.rm = TRUE)</td>
+      </tr>
+      <tr>
+        <td id="L309" class="blob-num js-line-number" data-line-number="309"></td>
+        <td id="LC309" class="blob-code blob-code-inner js-file-line">    index <span class="pl-c1">&amp;lt;</span>- index + 1</td>
+      </tr>
+      <tr>
+        <td id="L310" class="blob-num js-line-number" data-line-number="310"></td>
+        <td id="LC310" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L311" class="blob-num js-line-number" data-line-number="311"></td>
+        <td id="LC311" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L312" class="blob-num js-line-number" data-line-number="312"></td>
+        <td id="LC312" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L313" class="blob-num js-line-number" data-line-number="313"></td>
+        <td id="LC313" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;A histogram for the number of daily steps is plotted by:&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L314" class="blob-num js-line-number" data-line-number="314"></td>
+        <td id="LC314" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L315" class="blob-num js-line-number" data-line-number="315"></td>
+        <td id="LC315" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>r<span class="pl-pds">&quot;</span></span>&gt;hist(daily_steps, col = <span class="pl-c1">&amp;quot;</span>RED<span class="pl-c1">&amp;quot;</span>, xlab = <span class="pl-c1">&amp;quot;</span>Number of steps per day<span class="pl-c1">&amp;quot;</span>, main = <span class="pl-c1">&amp;quot;</span>Daily Steps<span class="pl-c1">&amp;quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L316" class="blob-num js-line-number" data-line-number="316"></td>
+        <td id="LC316" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L317" class="blob-num js-line-number" data-line-number="317"></td>
+        <td id="LC317" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L318" class="blob-num js-line-number" data-line-number="318"></td>
+        <td id="LC318" class="blob-code blob-code-inner js-file-line">&lt;p&gt;&lt;img src=&quot;data:image/png;base64,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&quot; alt=&quot;plot of chunk unnamed-chunk-11&quot;/&gt; &lt;/p&gt;</td>
+      </tr>
+      <tr>
+        <td id="L319" class="blob-num js-line-number" data-line-number="319"></td>
+        <td id="LC319" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L320" class="blob-num js-line-number" data-line-number="320"></td>
+        <td id="LC320" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;And the mean and media are calculated by:&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L321" class="blob-num js-line-number" data-line-number="321"></td>
+        <td id="LC321" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L322" class="blob-num js-line-number" data-line-number="322"></td>
+        <td id="LC322" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>r<span class="pl-pds">&quot;</span></span>&gt;print(paste(<span class="pl-c1">&amp;quot;</span>The mean number of daily steps is<span class="pl-c1">&amp;quot;</span>,</td>
+      </tr>
+      <tr>
+        <td id="L323" class="blob-num js-line-number" data-line-number="323"></td>
+        <td id="LC323" class="blob-code blob-code-inner js-file-line">            toString(mean(daily_steps, na.rm = TRUE)),</td>
+      </tr>
+      <tr>
+        <td id="L324" class="blob-num js-line-number" data-line-number="324"></td>
+        <td id="LC324" class="blob-code blob-code-inner js-file-line">            <span class="pl-c1">&amp;quot;</span>and the median is<span class="pl-c1">&amp;quot;</span>,</td>
+      </tr>
+      <tr>
+        <td id="L325" class="blob-num js-line-number" data-line-number="325"></td>
+        <td id="LC325" class="blob-code blob-code-inner js-file-line">            toString(median(daily_steps, na.rm = TRUE))))</td>
+      </tr>
+      <tr>
+        <td id="L326" class="blob-num js-line-number" data-line-number="326"></td>
+        <td id="LC326" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L327" class="blob-num js-line-number" data-line-number="327"></td>
+        <td id="LC327" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L328" class="blob-num js-line-number" data-line-number="328"></td>
+        <td id="LC328" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span>&gt;## [1] <span class="pl-c1">&amp;quot;</span>The mean number of daily steps is 10766.1886792453 and the median is 10766.1886792453<span class="pl-c1">&amp;quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L329" class="blob-num js-line-number" data-line-number="329"></td>
+        <td id="LC329" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L330" class="blob-num js-line-number" data-line-number="330"></td>
+        <td id="LC330" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L331" class="blob-num js-line-number" data-line-number="331"></td>
+        <td id="LC331" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;Both the average daily steps, as well as the median are much higher when missing values are filled in using their interval daily average.&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L332" class="blob-num js-line-number" data-line-number="332"></td>
+        <td id="LC332" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L333" class="blob-num js-line-number" data-line-number="333"></td>
+        <td id="LC333" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;##The Difference in Activity Patterns Between Weekdays and Weekends&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L334" class="blob-num js-line-number" data-line-number="334"></td>
+        <td id="LC334" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L335" class="blob-num js-line-number" data-line-number="335"></td>
+        <td id="LC335" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;To answer this question the dataset will be expanded with a logical column for weekday/weekend.&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L336" class="blob-num js-line-number" data-line-number="336"></td>
+        <td id="LC336" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L337" class="blob-num js-line-number" data-line-number="337"></td>
+        <td id="LC337" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>r<span class="pl-pds">&quot;</span></span>&gt;weekend_day <span class="pl-c1">&amp;lt;</span>- weekdays(as.Date(filled_amd$<span class="pl-c1">&amp;quot;</span>date<span class="pl-c1">&amp;quot;</span>)) == <span class="pl-c1">&amp;quot;</span>Saturday<span class="pl-c1">&amp;quot;</span> | weekdays(as.Date(filled_amd$<span class="pl-c1">&amp;quot;</span>date<span class="pl-c1">&amp;quot;</span>)) == <span class="pl-c1">&amp;quot;</span>Sunday<span class="pl-c1">&amp;quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L338" class="blob-num js-line-number" data-line-number="338"></td>
+        <td id="LC338" class="blob-code blob-code-inner js-file-line">xp_amd <span class="pl-c1">&amp;lt;</span>- cbind(filled_amd, weekend_day)</td>
+      </tr>
+      <tr>
+        <td id="L339" class="blob-num js-line-number" data-line-number="339"></td>
+        <td id="LC339" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L340" class="blob-num js-line-number" data-line-number="340"></td>
+        <td id="LC340" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L341" class="blob-num js-line-number" data-line-number="341"></td>
+        <td id="LC341" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;The average steps per interval are caluculate by weekday/weekend:&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L342" class="blob-num js-line-number" data-line-number="342"></td>
+        <td id="LC342" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L343" class="blob-num js-line-number" data-line-number="343"></td>
+        <td id="LC343" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>r<span class="pl-pds">&quot;</span></span>&gt;wd_avg_interval_steps <span class="pl-c1">&amp;lt;</span>- vector(length = length(intervals), mode = <span class="pl-c1">&amp;quot;</span>numeric<span class="pl-c1">&amp;quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L344" class="blob-num js-line-number" data-line-number="344"></td>
+        <td id="LC344" class="blob-code blob-code-inner js-file-line">we_avg_interval_steps <span class="pl-c1">&amp;lt;</span>- vector(length = length(intervals), mode = <span class="pl-c1">&amp;quot;</span>numeric<span class="pl-c1">&amp;quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L345" class="blob-num js-line-number" data-line-number="345"></td>
+        <td id="LC345" class="blob-code blob-code-inner js-file-line">wd_logical <span class="pl-c1">&amp;lt;</span>- vector(length = length(intervals), mode = <span class="pl-c1">&amp;quot;</span>logical<span class="pl-c1">&amp;quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L346" class="blob-num js-line-number" data-line-number="346"></td>
+        <td id="LC346" class="blob-code blob-code-inner js-file-line">we_logical <span class="pl-c1">&amp;lt;</span>- vector(length = length(intervals), mode = <span class="pl-c1">&amp;quot;</span>logical<span class="pl-c1">&amp;quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L347" class="blob-num js-line-number" data-line-number="347"></td>
+        <td id="LC347" class="blob-code blob-code-inner js-file-line">index <span class="pl-c1">&amp;lt;</span>- 1</td>
+      </tr>
+      <tr>
+        <td id="L348" class="blob-num js-line-number" data-line-number="348"></td>
+        <td id="LC348" class="blob-code blob-code-inner js-file-line">for(i in intervals)</td>
+      </tr>
+      <tr>
+        <td id="L349" class="blob-num js-line-number" data-line-number="349"></td>
+        <td id="LC349" class="blob-code blob-code-inner js-file-line">{</td>
+      </tr>
+      <tr>
+        <td id="L350" class="blob-num js-line-number" data-line-number="350"></td>
+        <td id="LC350" class="blob-code blob-code-inner js-file-line">    wd_avg_interval_steps[index] <span class="pl-c1">&amp;lt;</span>- mean(xp_amd$<span class="pl-c1">&amp;quot;</span>steps<span class="pl-c1">&amp;quot;</span>[xp_amd$<span class="pl-c1">&amp;quot;</span>interval<span class="pl-c1">&amp;quot;</span> == i <span class="pl-c1">&amp;amp;</span> xp_amd$<span class="pl-c1">&amp;quot;</span>weekend_day<span class="pl-c1">&amp;quot;</span> == FALSE], na.rm = TRUE)</td>
+      </tr>
+      <tr>
+        <td id="L351" class="blob-num js-line-number" data-line-number="351"></td>
+        <td id="LC351" class="blob-code blob-code-inner js-file-line">    we_avg_interval_steps[index] <span class="pl-c1">&amp;lt;</span>- mean(xp_amd$<span class="pl-c1">&amp;quot;</span>steps<span class="pl-c1">&amp;quot;</span>[xp_amd$<span class="pl-c1">&amp;quot;</span>interval<span class="pl-c1">&amp;quot;</span> == i <span class="pl-c1">&amp;amp;</span> xp_amd$<span class="pl-c1">&amp;quot;</span>weekend_day<span class="pl-c1">&amp;quot;</span> == TRUE], na.rm = TRUE)</td>
+      </tr>
+      <tr>
+        <td id="L352" class="blob-num js-line-number" data-line-number="352"></td>
+        <td id="LC352" class="blob-code blob-code-inner js-file-line">    wd_logical[index] <span class="pl-c1">&amp;lt;</span>- TRUE</td>
+      </tr>
+      <tr>
+        <td id="L353" class="blob-num js-line-number" data-line-number="353"></td>
+        <td id="LC353" class="blob-code blob-code-inner js-file-line">    we_logical[index] <span class="pl-c1">&amp;lt;</span>- FALSE</td>
+      </tr>
+      <tr>
+        <td id="L354" class="blob-num js-line-number" data-line-number="354"></td>
+        <td id="LC354" class="blob-code blob-code-inner js-file-line">    index <span class="pl-c1">&amp;lt;</span>- index + 1</td>
+      </tr>
+      <tr>
+        <td id="L355" class="blob-num js-line-number" data-line-number="355"></td>
+        <td id="LC355" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L356" class="blob-num js-line-number" data-line-number="356"></td>
+        <td id="LC356" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L357" class="blob-num js-line-number" data-line-number="357"></td>
+        <td id="LC357" class="blob-code blob-code-inner js-file-line">avg_interval_steps_wd <span class="pl-c1">&amp;lt;</span>- data.frame(c(wd_avg_interval_steps,we_avg_interval_steps),c(wd_logical,we_logical))</td>
+      </tr>
+      <tr>
+        <td id="L358" class="blob-num js-line-number" data-line-number="358"></td>
+        <td id="LC358" class="blob-code blob-code-inner js-file-line">colnames(avg_interval_steps_wd) <span class="pl-c1">&amp;lt;</span>- c(<span class="pl-c1">&amp;quot;</span>avg<span class="pl-c1">&amp;quot;</span>, <span class="pl-c1">&amp;quot;</span>is.weekday<span class="pl-c1">&amp;quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L359" class="blob-num js-line-number" data-line-number="359"></td>
+        <td id="LC359" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L360" class="blob-num js-line-number" data-line-number="360"></td>
+        <td id="LC360" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L361" class="blob-num js-line-number" data-line-number="361"></td>
+        <td id="LC361" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">p</span>&gt;And a density plot is made:&lt;/<span class="pl-ent">p</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L362" class="blob-num js-line-number" data-line-number="362"></td>
+        <td id="LC362" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L363" class="blob-num js-line-number" data-line-number="363"></td>
+        <td id="LC363" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">pre</span>&gt;&lt;<span class="pl-ent">code</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>r<span class="pl-pds">&quot;</span></span>&gt;library(lattice)</td>
+      </tr>
+      <tr>
+        <td id="L364" class="blob-num js-line-number" data-line-number="364"></td>
+        <td id="LC364" class="blob-code blob-code-inner js-file-line">densityplot(~avg_interval_steps_wd$<span class="pl-c1">&amp;quot;</span>avg<span class="pl-c1">&amp;quot;</span>|avg_interval_steps_wd$<span class="pl-c1">&amp;quot;</span>is.weekday<span class="pl-c1">&amp;quot;</span>, </td>
+      </tr>
+      <tr>
+        <td id="L365" class="blob-num js-line-number" data-line-number="365"></td>
+        <td id="LC365" class="blob-code blob-code-inner js-file-line">            main=<span class="pl-c1">&amp;quot;</span>Density Plot by weekday<span class="pl-c1">&amp;quot;</span>,</td>
+      </tr>
+      <tr>
+        <td id="L366" class="blob-num js-line-number" data-line-number="366"></td>
+        <td id="LC366" class="blob-code blob-code-inner js-file-line">            xlab=<span class="pl-c1">&amp;quot;</span>Average interval steps<span class="pl-c1">&amp;quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L367" class="blob-num js-line-number" data-line-number="367"></td>
+        <td id="LC367" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">code</span>&gt;&lt;/<span class="pl-ent">pre</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L368" class="blob-num js-line-number" data-line-number="368"></td>
+        <td id="LC368" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L369" class="blob-num js-line-number" data-line-number="369"></td>
+        <td id="LC369" class="blob-code blob-code-inner js-file-line">&lt;p&gt;&lt;img src=&quot;data:image/png;base64,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&quot; alt=&quot;plot of chunk unnamed-chunk-15&quot;/&gt; &lt;/p&gt;</td>
+      </tr>
+      <tr>
+        <td id="L370" class="blob-num js-line-number" data-line-number="370"></td>
+        <td id="LC370" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L371" class="blob-num js-line-number" data-line-number="371"></td>
+        <td id="LC371" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">body</span>&gt;</td>
+      </tr>
+      <tr>
+        <td id="L372" class="blob-num js-line-number" data-line-number="372"></td>
+        <td id="LC372" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L373" class="blob-num js-line-number" data-line-number="373"></td>
+        <td id="LC373" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">html</span>&gt;</td>
+      </tr>
+</table>
+
+  </div>
+
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <form accept-charset="UTF-8" action="" class="js-jump-to-line-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
+    <button type="submit" class="btn">Go</button>
+</form></div>
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.07173s from github-fe128-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder=""></textarea>
+      <div class="suggester-container">
+        <div class="suggester fullscreen-suggester js-suggester js-navigation-container"></div>
+      </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-3241a40a58a82e21daef3dd3cdca01bde189158793c1b6f9193fff2b5293cd1d.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github/index-93799dc3b48721586da77cc7c73632bc4fb8e157356876ec160370ab6be81349.js"></script>
+      
+      
+  </body>
+</html>
+
